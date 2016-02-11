@@ -28,7 +28,7 @@ class TijdmediaGeoPhpBundle extends Bundle
     {
         parent::build($container);
 
-        $extension = new CocurSlugifyExtension();
+        $extension = new TijdmediaGeoPhpExtension();
         $extension->load(array(), $container);
 
         $container->registerExtension($extension);
