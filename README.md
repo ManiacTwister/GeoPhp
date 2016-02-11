@@ -1,2 +1,2 @@
 # geosPhp
-Port from phpGeos
+Port from https://github.com/phayes/geoPHP
