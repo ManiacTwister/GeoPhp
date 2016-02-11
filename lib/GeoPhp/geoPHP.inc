@@ -10,30 +10,6 @@ namespace GeoPhp;
  * file that was distributed with this source code.
  */
 
-// Adapters
-include_once("lib/adapters/GeoAdapter.class.php"); // Abtract class
-include_once("lib/adapters/GeoJSON.class.php");
-include_once("lib/adapters/WKT.class.php");
-include_once("lib/adapters/EWKT.class.php");
-include_once("lib/adapters/WKB.class.php");
-include_once("lib/adapters/EWKB.class.php");
-include_once("lib/adapters/KML.class.php");
-include_once("lib/adapters/GPX.class.php");
-include_once("lib/adapters/GeoRSS.class.php");
-include_once("lib/adapters/GoogleGeocode.class.php");
-include_once("lib/adapters/GeoHash.class.php");
-
-// Geometries
-include_once("lib/geometry/Geometry.class.php"); // Abtract class
-include_once("lib/geometry/Point.class.php");
-include_once("lib/geometry/Collection.class.php"); // Abtract class
-include_once("lib/geometry/LineString.class.php");
-include_once("lib/geometry/MultiPoint.class.php");
-include_once("lib/geometry/Polygon.class.php");
-include_once("lib/geometry/MultiLineString.class.php");
-include_once("lib/geometry/MultiPolygon.class.php");
-include_once("lib/geometry/GeometryCollection.class.php");
-
 class geoPHP
 {
 
