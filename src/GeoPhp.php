@@ -10,11 +10,11 @@ namespace GeoPhp;
  * file that was distributed with this source code.
  */
 
-class geoPHP
+class GeoPhp
 {
 
   static function version() {
-    return '1.2';
+    return '0.1';
   }
 
   // geoPHP::load($data, $type, $other_args);
