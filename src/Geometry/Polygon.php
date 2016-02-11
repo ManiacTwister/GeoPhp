@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoPhp\Geometry;
+namespace Tijdmedia\GeoPhp\Geometry;
 
 /**
  * Polygon: A polygon is a plane figure that is bounded by a closed path, 

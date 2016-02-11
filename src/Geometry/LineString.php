@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoPhp\Geometry;
+namespace Tijdmedia\GeoPhp\Geometry;
 
 /**
  * LineString. A collection of Points representing a line.

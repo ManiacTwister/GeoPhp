@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoPhp\Geometry;
+namespace Tijdmedia\GeoPhp\Geometry;
 
 /**
  * Geometry abstract class

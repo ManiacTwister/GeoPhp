@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoPhp\Geometry;
+namespace Tijdmedia\GeoPhp\Geometry;
 
 /**
  * GeometryCollection: A heterogenous collection of geometries  

@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoPhp;
+namespace Tijdmedia\GeoPhp;
 
 /*
  * (c) Patrick Hayes

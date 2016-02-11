@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoPhp\Adapter;
+namespace Tijdmedia\GeoPhp\Adapter;
 
 /**
  * EWKB (Extended Well Known Binary) Adapter

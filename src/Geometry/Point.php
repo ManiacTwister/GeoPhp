@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoPhp\Geometry;
+namespace Tijdmedia\GeoPhp\Geometry;
 
 /**
  * Point: The most basic geometry type. All other geometries

@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoPhp\Adapter;
+namespace Tijdmedia\GeoPhp\Adapter;
 
 /**
  * EWKT (Extended Well Known Text) Adapter
