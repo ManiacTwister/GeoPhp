@@ -2,6 +2,10 @@
 
 namespace Tijdmedia\GeoPhp;
 
+
+
+use Tijdmedia\GeoPhp\Adapter\GeoJSON as GeoJSON;
+
 /*
  * (c) Patrick Hayes
  *
@@ -70,29 +74,29 @@ class GeoPhp
 
   static function getAdapterMap() {
     return array (
-      'wkt' =>  'WKT',
-      'ewkt' => 'EWKT',
-      'wkb' =>  'WKB',
-      'ewkb' => 'EWKB',
-      'json' => 'GeoJSON',
-      'geojson' => 'GeoJSON',
-      'kml' =>  'KML',
-      'gpx' =>  'GPX',
-      'georss' => 'GeoRSS',
-      'google_geocode' => 'GoogleGeocode',
-      'geohash' => 'GeoHash',
+      'wkt' =>  'Tijdmedia\GeoPhp\Adapter\WKT',
+      'ewkt' => 'Tijdmedia\GeoPhp\Adapter\EWKT',
+      'wkb' =>  'Tijdmedia\GeoPhp\Adapter\WKB',
+      'ewkb' => 'Tijdmedia\GeoPhp\Adapter\EWKB',
+      'json' => 'Tijdmedia\GeoPhp\Adapter\GeoJSON',
+      'geojson' => 'Tijdmedia\GeoPhp\Adapter\GeoJSON',
+      'kml' =>  'Tijdmedia\GeoPhp\Adapter\KML',
+      'gpx' =>  'Tijdmedia\GeoPhp\Adapter\GPX',
+      'georss' => 'Tijdmedia\GeoPhp\Adapter\GeoRSS',
+      'google_geocode' => 'Tijdmedia\GeoPhp\Adapter\GoogleGeocode',
+      'geohash' => 'Tijdmedia\GeoPhp\Adapter\GeoHash',
     );
   }
 
   static function geometryList() {
     return array(
-      'point' => 'Point',
-      'linestring' => 'LineString',
-      'polygon' => 'Polygon',
-      'multipoint' => 'MultiPoint',
-      'multilinestring' => 'MultiLineString',
-      'multipolygon' => 'MultiPolygon',
-      'geometrycollection' => 'GeometryCollection',
+      'point' => 'Tijdmedia\GeoPhp\Geometry\Point',
+      'linestring' => 'Tijdmedia\GeoPhp\Geometry\LineString',
+      'polygon' => 'Tijdmedia\GeoPhp\Geometry\Polygon',
+      'multipoint' => 'Tijdmedia\GeoPhp\Geometry\MultiPoint',
+      'multilinestring' => 'Tijdmedia\GeoPhp\Geometry\MultiLineString',
+      'multipolygon' => 'Tijdmedia\GeoPhp\Geometry\MultiPolygon',
+      'geometrycollection' => 'Tijdmedia\GeoPhp\Geometry\GeometryCollection',
     );
   }
 
